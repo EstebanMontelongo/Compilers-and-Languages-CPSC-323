@@ -1,2 +1,6 @@
 # Compilers-and-Languages-CPSC-323
-CPSC 323 Compilers and Languages SP20 Projects
+Projects given throughout Spring Semester 2020.
+
+Each project built upon the previous projects, so maintaining the code
+
+and making sure everything was modularized was imporatant. 
