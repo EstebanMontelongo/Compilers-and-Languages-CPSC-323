@@ -1,0 +1,12 @@
+!comment!
+
+
+int a , b, c, d;
+float e, f, g, h;
+bool i, j, k, l;
+
+int m;
+float n;
+bool o;
+
+

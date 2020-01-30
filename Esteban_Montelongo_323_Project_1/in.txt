@@ -1,0 +1,19 @@
+! Find largest value between two numbers!
+int num1, num2, large$1
+if(num1 > num2)
+{
+	large = 67.66;
+}
+else
+{
+	large = num2$;
+}endif
+do
+{
+	int6. = 88;  ! tes
+	ting !7 !
+}doend
+while (fahr < upper)
+{
+ 	a = 23.00;
+}whileend

@@ -1,0 +1,70 @@
+Token: 	 KeyWord Lexem: 	int
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> INT
+Token: 	 Identifier Lexem: 	a
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	b
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	c
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	d
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	float
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> FLOAT
+Token: 	 Identifier Lexem: 	e
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	f
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	g
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	h
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	bool
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> BOOL
+Token: 	 Identifier Lexem: 	i
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	j
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	k
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	l
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	int
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> INT
+Token: 	 Identifier Lexem: 	m
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	float
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> FLOAT
+Token: 	 Identifier Lexem: 	n
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	bool
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> BOOL
+Token: 	 Identifier Lexem: 	o
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Finished!

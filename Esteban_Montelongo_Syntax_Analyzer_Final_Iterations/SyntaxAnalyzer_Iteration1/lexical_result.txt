@@ -1,0 +1,35 @@
+
+TOKENS	 	LEXEMS
+
+Identifier	x
+Operators 	=
+Seperators	(
+Identifier	a
+Operators 	+
+Identifier	b
+Seperators	)
+Operators 	*
+Seperators	(
+Identifier	z
+Operators 	+
+Identifier	w
+Seperators	)
+Seperators	;
+Identifier	z
+Operators 	=
+Valid Integer	5
+Operators 	+
+Identifier	b
+Seperators	;
+Identifier	a
+Operators 	=
+Identifier	e
+Operators 	-
+Identifier	f
+Seperators	;
+Identifier	b
+Operators 	=
+Identifier	t
+Operators 	+
+Identifier	n
+Seperators	;

@@ -1,0 +1,162 @@
+Token: 	 KeyWord Lexem: 	bool
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> BOOL
+Token: 	 Identifier Lexem: 	i
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	j
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	k
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	l
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 Identifier Lexem: 	x
+<Statement> -> <Assignment>
+<Assignment> -> <Identifier> = <Expression>
+Token: 	 Operators Lexem: 	=
+Token: 	 Seperators Lexem: 	(
+<Expression> -> <Term> <Expression Prime>
+<Term> -> <Factor> <Term Prime>
+<Factor> -> (<Expression>)
+Token: 	 Identifier Lexem: 	a
+<Expression> -> <Term> <Expression Prime>
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Operators Lexem: 	+
+<Term Prime> -> epsilon
+<Expression Prime> -> + <Term> <Expression Prime>
+Token: 	 Identifier Lexem: 	b
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Seperators Lexem: 	)
+<Term Prime> -> epsilon
+<Expression Prime> -> epsilon
+Token: 	 Operators Lexem: 	*
+<Term Prime> -> * <Factor> <Term Prime>
+Token: 	 Seperators Lexem: 	(
+<Factor> -> (<Expression>)
+Token: 	 Identifier Lexem: 	z
+<Expression> -> <Term> <Expression Prime>
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Operators Lexem: 	+
+<Term Prime> -> epsilon
+<Expression Prime> -> + <Term> <Expression Prime>
+Token: 	 Identifier Lexem: 	w
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Seperators Lexem: 	)
+<Term Prime> -> epsilon
+<Expression Prime> -> epsilon
+Token: 	 Seperators Lexem: 	;
+<Term Prime> -> epsilon
+<Expression Prime> -> epsilon
+Token: 	 Identifier Lexem: 	z
+<Statement> -> <Assignment>
+<Assignment> -> <Identifier> = <Expression>
+Token: 	 Operators Lexem: 	=
+Token: 	 Valid Integer Lexem: 	5
+<Expression> -> <Term> <Expression Prime>
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Number>
+Token: 	 Operators Lexem: 	+
+<Term Prime> -> epsilon
+<Expression Prime> -> + <Term> <Expression Prime>
+Token: 	 Identifier Lexem: 	b
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Seperators Lexem: 	;
+<Term Prime> -> epsilon
+<Expression Prime> -> epsilon
+Token: 	 Identifier Lexem: 	a
+<Statement> -> <Assignment>
+<Assignment> -> <Identifier> = <Expression>
+Token: 	 Operators Lexem: 	=
+Token: 	 Identifier Lexem: 	e
+<Expression> -> <Term> <Expression Prime>
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Operators Lexem: 	-
+<Term Prime> -> epsilon
+<Expression Prime> -> - <Term> <Expression Prime>
+Token: 	 Identifier Lexem: 	f
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Seperators Lexem: 	;
+<Term Prime> -> epsilon
+<Expression Prime> -> epsilon
+Token: 	 Identifier Lexem: 	b
+<Statement> -> <Assignment>
+<Assignment> -> <Identifier> = <Expression>
+Token: 	 Operators Lexem: 	=
+Token: 	 Identifier Lexem: 	t
+<Expression> -> <Term> <Expression Prime>
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Operators Lexem: 	+
+<Term Prime> -> epsilon
+<Expression Prime> -> + <Term> <Expression Prime>
+Token: 	 Identifier Lexem: 	n
+<Term> -> <Factor> <Term Prime>
+<Factor> -> <Identifier> 
+Token: 	 Seperators Lexem: 	;
+<Term Prime> -> epsilon
+<Expression Prime> -> epsilon
+Token: 	 KeyWord Lexem: 	int
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> INT
+Token: 	 Identifier Lexem: 	a
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	b
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	c
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	d
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	float
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> FLOAT
+Token: 	 Identifier Lexem: 	e
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	f
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	g
+Token: 	 Seperators Lexem: 	,
+<MoreIdentifiers> -> COMMA ID <MID>
+Token: 	 Identifier Lexem: 	h
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	int
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> INT
+Token: 	 Identifier Lexem: 	m
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	float
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> FLOAT
+Token: 	 Identifier Lexem: 	n
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Token: 	 KeyWord Lexem: 	bool
+<Statement> -> <Declaration>
+<Declaration> -> <Type> ID <MID> SC
+<Type> -> BOOL
+Token: 	 Identifier Lexem: 	o
+Token: 	 Seperators Lexem: 	;
+<MoreIdentifiers> -> epsilon
+Finished!

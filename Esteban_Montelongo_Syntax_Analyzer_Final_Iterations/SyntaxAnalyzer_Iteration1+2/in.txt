@@ -1,0 +1,18 @@
+!comment!
+
+bool i, j, k, l;
+
+x = (a + b) * (z + w);
+z = 5 + b;
+a = e - f;
+b = t + n;
+
+int a , b, c, d;
+float e, f, g, h;
+
+
+int m;
+float n;
+bool o;
+
+

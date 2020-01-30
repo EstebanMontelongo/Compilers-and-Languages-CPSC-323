@@ -1,0 +1,7 @@
+!comment!
+
+
+x = (a + b) * (z + w);
+z = 5 + b;
+a = e - f;
+b = t + n;
